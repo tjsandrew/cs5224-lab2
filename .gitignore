@@ -1,0 +1,40 @@
+# Python and editor-generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+
+# Full dataset, generated results, logs and Spark artifacts
+/twitter_combined.txt
+/data/
+/output/
+/results/
+/logs/
+/spark-warehouse/
+/metastore_db/
+/derby.log
+*.log
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+*credentials*
+*secrets*
+*.pem
+*.key
+
+# Report, screenshots and private working notes
+*.tex
+*.pdf
+/images/
+/screenshots/
+.codex/
+.agents/
+AGENTS.md
+STYLE_NOTES.md
+LAB2_SESSION_START.md

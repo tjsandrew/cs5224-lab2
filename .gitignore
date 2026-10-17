@@ -38,3 +38,10 @@ venv/
 AGENTS.md
 STYLE_NOTES.md
 LAB2_SESSION_START.md
+
+# Lambda build output
+/backend/dist/
+
+# Local session notes
+RESUME_HERE.md
+REPORT_NOTES.md
